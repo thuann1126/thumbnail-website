@@ -1,7 +1,11 @@
+import NavigationBar from './Header-footer/NavigationBar';
+import Homepage from './Components/Home/Homepage';
+
 function App() {
   return (
-    <div className="App">
-      Hello world
+    <div>
+      <NavigationBar />
+      <Homepage />
     </div>
   );
 }
