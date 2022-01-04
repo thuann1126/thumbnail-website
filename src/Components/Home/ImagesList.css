@@ -47,7 +47,7 @@
     margin: 5vh auto 5vh;    
   }
 
-  @media screen and (max-width: 650px) {
+  @media only screen and (max-width: 650px) {
     .slide {    
       height: 30vh;         
     }

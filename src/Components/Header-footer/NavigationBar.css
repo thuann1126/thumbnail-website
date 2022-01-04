@@ -6,6 +6,7 @@
   grid-template-columns: auto auto auto auto auto;
   border-bottom: 1.5px solid #e6ac00;  
   color: #664d00;
+  cursor: pointer;
 }
 .navigator_login {
   text-align: right;
@@ -32,17 +33,17 @@
   position: sticky;
 }
 
-@media screen and (max-width: 650px) {  
+@media only screen and (max-width: 650px) {  
 
   .navigator {
-    display: grid;
+    display: flex;
     list-style-type: none;
     font-family: "Lato", sans-serif;
     text-align: left;
-    grid-template-columns: auto;
+    flex-direction: row;
     border-bottom: 1px solid #e6ac00;
     color: #664d00;
-    visibility: visible;
+    visibility: hidden;
   }
   .navigator_login {
     text-align: left;
@@ -57,5 +58,12 @@
   .navigator_elements:hover {
     color: #e6ac00;
     background-color: #f2f2f2;
+  }
+  #list-icon {
+    width: 10%;
+    height: 8%;
+    left:2%;
+    position: absolute;
+    visibility: visible;
   }
 }

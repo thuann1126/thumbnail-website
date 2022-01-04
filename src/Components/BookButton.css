@@ -7,6 +7,11 @@
     font-family: 'Prompt', sans-serif;
     color: white;  
     padding: 1vw;
-    background-color: #000000;     
+    background-color: #000000;
+    cursor: pointer;     
+}
+
+.buttonStyle:hover{
+    background-color: #b38600;
 }
 
