@@ -8,6 +8,7 @@
   color: #664d00;
   cursor: pointer;
 }
+
 .navigator_login {
   text-align: right;
   margin-right: 5vw;
@@ -33,6 +34,7 @@
   position: sticky;
 }
 
+
 @media only screen and (max-width: 650px) {  
 
   .navigator {
@@ -45,6 +47,19 @@
     color: #664d00;
     visibility: hidden;
   }
+  .navigator-dropdown{
+    display: grid;
+    list-style-type: none;
+    flex-direction: column;
+    text-align: center;  
+    grid-template-columns: auto;
+    border-bottom: 1.5px solid #e6ac00;  
+    color: #664d00;
+    cursor: pointer;
+    list-style-type: none;
+    visibility: visible;
+  }
+  
   .navigator_login {
     text-align: left;
     margin-right: 0;

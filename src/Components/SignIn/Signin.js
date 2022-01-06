@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import NavigationBar from "../Header-footer/NavigationBar";
+import Footer from "../Header-footer/Footer";
 
 export default function Signin() {
-    return (
-        <div>
-            Sign In
-        </div>
-    )
+  return (
+    <>
+      <div>
+        <NavigationBar />
+        <di>Galery</di>
+        <Footer />
+      </div>
+    </>
+  );
 }

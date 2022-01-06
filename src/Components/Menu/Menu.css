@@ -12,3 +12,37 @@
     font-size: 3vw;    
     position: absolute;     
 }
+.menuContent{
+    padding: 15%;
+    margin-bottom: 45%;    
+    text-align: center;
+    display: grid;
+    grid-gap: 10%;
+    font-family: 'Inter', sans-serif;
+}
+.itemList{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10%;
+    font-family: 'Prompt', sans-serif;
+}
+
+@media only screen and (max-width: 650px) {
+    .slogan{
+        font-family: 'Mea Culpa', cursive;
+        font-size: 5vh;    
+        position: absolute;    
+        left: 25%;
+        padding-top: 1%;
+        color: #806000;    
+    }
+    .slogan_subtitle{
+        font-size: 1vw;
+        left: 20%;     
+        font-size: 3vw;    
+        position: absolute;     
+    }
+    .menuContent{
+        padding-top: 25%;
+    }
+}

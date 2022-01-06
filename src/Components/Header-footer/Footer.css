@@ -3,7 +3,8 @@
   grid-template-columns: auto auto;
   list-style-type: none;
   text-align: center;
-  font-family: "Prompt", sans-serif;  
+  font-family: "Prompt", sans-serif; 
+  padding-top: 5%; 
   background-color: #f2e6d9;
   color:black;
 }
