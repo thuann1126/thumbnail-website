@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import NavigationBar from "../Header-footer/NavigationBar";
 import Footer from "../Header-footer/Footer";
+import BookButton from "../BookButton";
 import { db } from "../../Firebase/FirebaseConfig";
 import "../Home/Slogan.css";
 import "./Menu.css";
@@ -85,9 +86,12 @@ export default function Menu() {
           <div className="itemList">{printPedicuresPrice}</div>
           <div>ADD ONS</div>
           <div className="itemList">{printAdd_ons_price}</div>
+          
         </div>
-        <Footer />
+        <BookButton/>
+        
       </div>
+      <Footer />
     </>
   );
 }
