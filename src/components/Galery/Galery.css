@@ -1,0 +1,31 @@
+.servicesTitle{
+display: flex;
+flex-direction: row;
+gap: 10vw;
+justify-content: center;
+}
+.titleItems{
+    border: 1px solid #664d00;
+border-radius: 25vw 25vw;
+margin-top: 10vw;
+padding: 1vw;
+font-family: 'Lato', sans-serif;
+}
+.titleItems:hover{
+    background-color:#b38600 ;
+}
+
+@media screen and (max-width: 650px) {
+    .servicesTitle{
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+        justify-content: center;
+        text-align: center;
+        }
+    .titleItems{
+       
+    margin-top: 35vw;
+    
+    }
+}

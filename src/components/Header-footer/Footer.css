@@ -1,0 +1,48 @@
+.content {
+  display: grid;
+  grid-template-columns: auto auto;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Prompt", sans-serif; 
+  padding-top: 5%; 
+  background-color: #f2e6d9;
+  color:black;
+}
+
+.copyright {
+  grid-column: 1 / span 2;
+  text-align: center;
+  margin: 10% auto;
+}
+
+.location {
+  grid-column: 1;
+  list-style-type: none;
+  
+}
+
+.hours {
+  grid-column: 2;
+  list-style-type: none;
+}
+
+@media only screen and (max-width: 650px) { 
+  .content {    
+    grid-template-columns: auto;    
+    text-align: center;
+  }
+  .copyright {
+    grid-column: 1;
+    text-align: center;
+    margin: auto auto auto 7%;
+    
+  }
+  .hours {
+    grid-column: 1;
+    padding: auto;
+  }
+  .location {
+    padding: auto;
+    
+  }
+}
